@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "menu2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "now", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,26 +66,26 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━ BONIPHACE MD ━━┓
+┏━━ TIMNASA MD ━━┓
 ┃   Mode: ${mode}
 ┃   User : ${s.OWNER_NAME}
 ┃
-┣━boniphace md new vision 𒈒━➠
-┗━━━𒈒by Boniphace Tech𒈒━━┛\n\n`;
+┣━timnasa md new vision 𒈒━➠
+┗━━━𒈒by Timnasa Tech𒈒━━┛\n\n`;
 
 
     
 
 let menuMsg = `
 ┏━━━━━━━━━━━━━━┓
-┣༆boniphace md  
-┣༆by Boniphace Tech
+┣༆timnasa md  
+┣༆by timnasa Tech
 ┗━━━━━━━━━━━━━━┛\n
 
 
 
 
-boniphace md cmds𒈒
+timnasa md cmds𒈒
 `;
 
 
@@ -112,13 +112,13 @@ boniphace md cmds𒈒
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏boniphace md bot 
-┣❏by boniphace Tech 
+️┣❏timnasa md bot 
+┣❏by timnasa Tech 
 ┗━━━━━━━━━━━━━━┛\n
 
 
 ┏━━━━━━━━━━━━━━┓
-┃powered by boniphace Tech 
+┃powered by timnasa Tech 
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -134,7 +134,7 @@ boniphace md cmds𒈒
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *BONIPHACE-MD*, déveloper Fredie" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TIMNASA-MD*, déveloper TIMNASA" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -154,7 +154,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TIMNASA-MD*, déveloper cod3uchiha" }, { quoted: ms });
 
     }
 
