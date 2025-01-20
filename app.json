@@ -1,14 +1,14 @@
 {
-  "name": "BONIPHACE-MD",
-  "description": "This BOT was developed by Boniphace.",
+  "name": "𝕋𝕀𝕄ℕ𝔸𝕊𝔸-𝕄𝔻",
+  "description": "This BOT was developed by 𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐓𝐄𝐂𝐇.",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/3vzjsl.jpeg",
-  "repository": "https://github.com/boniphace478/private",
+  "logo": "https://files.catbox.moe/gggs3h.jpg",
+  "repository": "https://github.com/timnasa999/TIMNASA-TECH/private",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -44,7 +44,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "BONIPHACE-MD",
+      "value": "TIMNASA-MD",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -75,12 +75,12 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "BONIPHACE"
+      "value": "TIMNASA MD"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "255716661569"
+      "value": "255784766591"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
