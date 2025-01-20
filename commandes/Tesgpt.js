@@ -15,7 +15,7 @@ zokou({ nomCom: "gpt10", reaction: "🤔", categorie: "IA" }, async (dest, zk, c
         const question = arg.join(' ');
 
         // Appel à l'API ChatGPT avec la nouvelle URL recherche par thomas
-        const responseApi = await axios.get(`https://test-api-apms.onrender.com/api/chatgpt?text=${encodeURIComponent(question)}&name=Kaizoku&prompt=${encodeURIComponent("Tu seras une IA d'un bot WhatsApp tres puissant du nom BONIPHACE-MD")}&apikey=BrunoSobrino`);
+        const responseApi = await axios.get(`https://test-api-apms.onrender.com/api/chatgpt?text=${encodeURIComponent(question)}&name=Kaizoku&prompt=${encodeURIComponent("Tu seras une IA d'un bot WhatsApp tres puissant du nom TIMNASA-MD")}&apikey=BrunoSobrino`);
 
         const resultat = responseApi.data;
         if (resultat) {
