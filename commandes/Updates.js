@@ -13,10 +13,10 @@ zokou({
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, msgRepondu, arg, repondre, nomAuteurMessage } = commandeOptions;
 
-  zk.sendMessage(origineMessage, { text: "*COMMANDE DEVELOPPÉ Par BONIPHACE-TECH, un développeur HAÏTIEN🇹🇿*" });
+  zk.sendMessage(origineMessage, { text: "*COMMANDE DEVELOPPÉ Par TO TIMNASA-TECH, un développeur VENOM🇹🇿*" });
 
   try {
-    const repoUrl = "https://api.github.com/repos/boniphace478/BONIPHACE-XMD-1";
+    const repoUrl = "https://github.com/timnasa999/TIMNASA-TECH";
     const commitsUrl = `${repoUrl}/commits`;
 
     // Cette partie cherche les commits
